@@ -1,0 +1,51 @@
+.container {
+  position: relative;
+  width:450px;
+  margin: 0 auto;
+  background-color: white;
+  padding-top:140px;
+}
+
+.container .new-tweet  {
+  position: relative;
+  border: solid 2px #ddd;
+  background-color: #eee;
+  width: 390px;
+  left:30px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+.container .new-tweet h2 {
+  left: 10px;
+  top: 10px;
+  margin: 10px;
+}
+
+.container .new-tweet h2::after {
+  content: '';
+  border-bottom: solid 1px #000;
+  position: absolute;
+  top: 38px;
+  left: 10px;
+  width: 366px;
+}
+
+.container .new-tweet form {
+  padding: 10px;
+}
+
+.container .new-tweet textarea {
+  display: inline-block;
+  width: 366px;
+  padding: 10px;
+  left:10px;
+}
+
+.container .new-tweet .counter {
+  position: absolute;
+  right:15px;
+  bottom:11px;
+  font-size:75%;
+  font-style:italic;
+}
