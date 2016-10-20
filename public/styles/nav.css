@@ -19,3 +19,21 @@
   width: 80px;
   height: 80px;
 }
+
+.toggle {
+  display: inline-block;
+  float: right;
+  color: #00a087;
+  font-size:1.3em;
+  background-color: #e8fdff;
+  border:solid 1px black;
+  padding: 20px 15px 20px 15px;
+  margin:7px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+.toggle:hover {
+  background-color: white;
+  color: black;
+}

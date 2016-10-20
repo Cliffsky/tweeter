@@ -1,0 +1,45 @@
+Budget App Design Doc:
+
+Tentative name - "SelfControl"
+
+Big Picture:
+
+"SelfControl" is a one-size-fits-all budget accountability app that commits users to a fixed daily spending limit. Users initialize a budget ($5, $10, $20/day options), provide the necessary info for us to track their spending, and for thirty days the app monitors spending and sends feedback. The stripped-down UI displays users what's left of their daily allowance, as well as responsible dynamic/algorithmic/non-persistent feedback that intelligently directs user spending according to need and reinforces the necessary omniscience/moral authority the app needs for the user to stick to it.
+
+Target User:
+
+- Me, and every student ever.
+
+User interface
+
+- Phone/web dual interface.
+- Single screen to display allowance.
+- Updates in real-time.
+- Fleeting/transitory feedback/notifications:
+    Transactions -  A push/e-mail notification for each transaction.
+    Stats - Bigger picture statistics, like below target expectations.
+    Positive/negative reinforcement - The ol' carrot and stick.
+    Advice - Not everyone is born thrifty.
+    Daily carryover - What happens if you beat the budget?
+- Additional information conveyed atextually -
+    (Example) - Real-time fading green-yellow-red color-scheme tells a user how they're doing daily. Spend too much too early, screen shifts to red. User gets back on track: fade back to green, etc.
+
+
+Main features:
+
+- Exceptions. The app accords users weekly monthly presents in order to better fit with normal consumer behavior patterns. Could be a night out at a bar, could be a meal at a restaurant, could be the latest issue of the New Yorker. Users decide on the presents each week and the app incorporates it into their big picture budget.
+- Big Exception. Users that reach the end of the budget period are met with a big present which they pick that rewards them for having stuck through the budget. That and the app gives them a medal or something.
+- Non-persistent across budget cycles. At the end of the 30 days, app automatically terminates relationship to user. Users renew on an elective basis. Shorter-term user commitment allows for extensive/intrusive feedback and incentivization.
+- Exit barrier. Budget cancellation requires users to correctly enter a 256-character random string without a single mistype.
+
+
+Modal features:
+
+- "Hardcore" SelfControl: let the app control all of your spending! Gives users daily spending plan that accounts for toilet paper, bulk chick-peas, everything. Also could be known as "State of Emergency", i.e. in case user falls too far behind.
+
+Revenue strategy:
+
+- Partner companies can advertise into two categories. Either:
+  - "Suggested Presents."
+  - "On Special." (i.e. actual good deals)
+- Data Mining? I don't like it. But everybody's doing it, right?

@@ -1,0 +1,430 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"create",
+				"createTweetElement"
+			],
+			[
+				"align",
+				"align-self"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"comp",
+				"companySalesData"
+			],
+			[
+				"f",
+				"f\tAnonymous Function"
+			],
+			[
+				"list",
+				"list"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 252.0,
+		"last_filter": "live",
+		"selected_items":
+		[
+			[
+				"live",
+				"LiveReload: Self test"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/cibc/lighthouse/week3/tweetr"
+	],
+	"file_history":
+	[
+		"/home/cibc/lighthouse/week3/tweetr/public/scripts/app.js",
+		"/home/cibc/lighthouse/week3/tweetr/public/scripts/Budget App Design Doc",
+		"/home/cibc/lighthouse/week3/tweetr/public/index.html",
+		"/home/cibc/lighthouse/week3/tweetr/server/api/tweets.js",
+		"/home/cibc/lighthouse/week3/tweetr/public/styles/nav.css",
+		"/home/cibc/lighthouse/week3/tweetr/public/styles/main.css",
+		"/home/cibc/lighthouse/week3/wedsesday notes/ppu/public/app.js",
+		"/home/cibc/lighthouse/week3/tweetr/tweetr.sublime-project",
+		"/home/cibc/lighthouse/week3/tweetr/package.json",
+		"/home/cibc/lighthouse/week3/tweetr/server/lib/db.js",
+		"/home/cibc/lighthouse/week3/tweetr/server/index.js",
+		"/home/cibc/lighthouse/week3/tweetr/public/scripts/composer-char-counter.js",
+		"/home/cibc/lighthouse/week3/tweetr/server/lib/user-helper.js",
+		"/home/cibc/lighthouse/week3/tweetr/server/lib/tweets.json",
+		"/home/cibc/lighthouse/week3/wedsesday notes/ppu/server.js",
+		"/home/cibc/lighthouse/week3/wedsesday notes/compare-ajaxs.html",
+		"/home/cibc/lighthouse/week3/wedsesday notes/index.html",
+		"/home/cibc/lighthouse/week3/wedsesday notes/inner.html",
+		"/home/cibc/.cache/.fr-iUhAYC/03oct2016-ajax/xhr.js",
+		"/home/cibc/.cache/.fr-KSXPBY/03oct2016-ajax/jquery-ajax.js",
+		"/home/cibc/.cache/.fr-dXi2w9/03oct2016-ajax/inner.json",
+		"/home/cibc/lighthouse/week3/ajax/more-posts.html",
+		"/home/cibc/lighthouse/week3/ajax/ajax-example.html",
+		"/home/cibc/lighthouse/week3/ajax",
+		"/home/cibc/lighthouse/week3/tweetr/public/styles/layout.css",
+		"/home/cibc/lighthouse/week3/tweetr/public/scripts/fussing.js",
+		"/home/cibc/lighthouse/week3/f2b8b25834bc2a93f7adfbd4082a2dc5/fractals.html",
+		"/home/cibc/lighthouse/spendlimit",
+		"/home/cibc/lighthouse/week3/tweetr/README.md",
+		"/home/cibc/lighthouse/week2day3/tinyapp/server.js",
+		"/home/cibc/lighthouse/week2day3/tinyapp/views/partials/header.ejs",
+		"/home/cibc/lighthouse/week2day3/tinyapp/views/pages/update.ejs",
+		"/home/cibc/lighthouse/week2day3/tinyapp/views/pages/url.ejs",
+		"/home/cibc/lighthouse/week2day3/tinyapp/public/main.css",
+		"/home/cibc/lighthouse/week2day3/tinyapp/views/pages/register.ejs",
+		"/home/cibc/lighthouse/week2day3/tinyapp/views/pages/index.ejs",
+		"/home/cibc/lighthouse/week2day3/tinyapp/views/pages/error.ejs",
+		"/home/cibc/lighthouse/week2day3/tinyapp/.eslintrc.js",
+		"/home/cibc/lighthouse/week2day3/tinyapp/userDb",
+		"/home/cibc/lighthouse/week2day3/tinyapp/urlDb",
+		"/home/cibc/lighthouse/week2day3/tinyapp/views/pages/url_display.ejs",
+		"/home/cibc/lighthouse/week2day3/03oct2016-rest/server.js",
+		"/home/cibc/lighthouse/week2day3/tinyapp/package.json",
+		"/home/cibc/lighthouse/week2day3/tinyapp/.eslintrc.*",
+		"/home/cibc/lighthouse/week2day5/w2d5-real-test/README.md",
+		"/home/cibc/lighthouse/week2day5/w2d5-real-test/answers/05.js",
+		"/home/cibc/lighthouse/week2day5/w2d5-real-test/answers/04.js",
+		"/home/cibc/lighthouse/week2day5/w2d5-real-test/answers/03.js",
+		"/home/cibc/lighthouse/week2day5/w2d5-real-test/tests/test_03.js",
+		"/home/cibc/lighthouse/week2day5/w2d5-real-test/answers/02.js",
+		"/home/cibc/lighthouse/week2day5/w2d5-real-test/answers/01.js",
+		"/home/cibc/lighthouse/week2day5/w2d5-real-test/answers/00.js",
+		"/home/cibc/lighthouse/week2day5/w2d5-real-test/.student-id",
+		"/home/cibc/lighthouse/week2day3/tinyapp/views/pages/login.ejs",
+		"/home/cibc/lighthouse/week2day3/tinyapp/views/partials/clapton.ejs",
+		"/home/cibc/lighthouse/week2day3/tinyapp/.gitignore",
+		"/home/cibc/lighthouse/week2day3/tinyapp/views/partials/head.ejs",
+		"/home/cibc/lighthouse/week2day3/03oct2016-rest/views/wizards/new.ejs",
+		"/home/cibc/lighthouse/week2day3/tinyapp/urls",
+		"/home/cibc/lighthouse/week2day1/avatar-downloader/avatar-downloader.js",
+		"/home/cibc/lighthouse/week2day3/tinyapp/views/pages/url_display",
+		"/home/cibc/lighthouse/week2day2/tinyapp/views/urls_show.ejs",
+		"/home/cibc/lighthouse/week2day2/tinyapp/views/index.ejs",
+		"/home/cibc/lighthouse/week2day2/tinyapp/app.js",
+		"/home/cibc/lighthouse/week2day2/tinyapp/views/urls_index.ejs",
+		"/home/cibc/lighthouse/week2day2/tinyapp/views/urls_new.ejs",
+		"/home/cibc/lighthouse/week2day2/tinyapp/views/partials/_header.ejs",
+		"/home/cibc/lighthouse/week2day2/app/views/pages/index.ejs",
+		"/home/cibc/lighthouse/week2day2/app/views/partials/header.ejs",
+		"/home/cibc/lighthouse/week2day2/app/server.js",
+		"/home/cibc/lighthouse/week2day2/app/views/pages/about.ejs",
+		"/home/cibc/lighthouse/week2day2/app/views/partials/head.ejs",
+		"/home/cibc/lighthouse/week2day2/app/views/partials/footer.ejs",
+		"/home/cibc/lighthouse/week2day2/app/package.json",
+		"/home/cibc/lighthouse/week2day2/app/views/pages/index.html",
+		"/home/cibc/lighthouse/week2day1/avatar-downloader/.env",
+		"/home/cibc/lighthouse/week2day1/avatar-downloader/avatar-downloader0.js",
+		"/home/cibc/lighthouse/week2day1/avatar-downloader/.gitignore",
+		"/home/cibc/lighthouse/week2day1/html-methods.js",
+		"/home/cibc/lighthouse/week2day1/avatar-downloader/github-access-token.txt",
+		"/home/cibc/lighthouse/eloquent-javascript/dark-blue/dark-blue.js",
+		"/home/cibc/lighthouse/go-to-sleep/player.js",
+		"/home/cibc/lighthouse/go-to-sleep/tools/make-room.js",
+		"/home/cibc/lighthouse/go-to-sleep/locale/kitchen.js",
+		"/home/cibc/lighthouse/week1day5/exports/exports.js",
+		"/home/cibc/lighthouse/week1end/streams/read.js",
+		"/home/cibc/lighthouse/week1end/streams/text.txt",
+		"/home/cibc/lighthouse/week1end/io/stat.js",
+		"/home/cibc/lighthouse/week1end/io/open.js",
+		"/home/cibc/lighthouse/week1end/io/input.txt",
+		"/home/cibc/lighthouse/week1end/io/exer.js",
+		"/home/cibc/lighthouse/week1end/mygettext.html",
+		"/home/cibc/lighthouse/go-to-sleep/monster.js",
+		"/home/cibc/lighthouse/go-to-sleep/location.js",
+		"/home/cibc/lighthouse/go-to-sleep/room-constructor.js",
+		"/home/cibc/lighthouse/go-to-sleep/rooms/kitchen.js",
+		"/home/cibc/lighthouse/week1day5/packages/index.js",
+		"/home/cibc/lighthouse/week1day5/bottle-recycling/bottle-recycling.js",
+		"/home/cibc/lighthouse/week1day5/stock-market/stock-market.js",
+		"/home/cibc/lighthouse/week1day5/luhn/test/test_luhn.js",
+		"/home/cibc/lighthouse/week1day5/luhn/lib/luhn.js",
+		"/home/cibc/Documents/allowance",
+		"/home/cibc/lighthouse/assessment-exam-student/answers/04.js",
+		"/home/cibc/lighthouse/week1day5/luhn/luhn.js",
+		"/home/cibc/lighthouse/week1day5/luhn/.gitignore",
+		"/home/cibc/lighthouse/assessment-exam-student/answers/03.js",
+		"/home/cibc/lighthouse/assessment-exam-student/answers/02.js",
+		"/home/cibc/lighthouse/assessment-exam-student/answers/01.js",
+		"/home/cibc/lighthouse/assessment-exam-student/answers/00.js",
+		"/home/cibc/lighthouse/assessment-exam-student/.student-id",
+		"/home/cibc/lighthouse/week1day3/objects/countLetters.js",
+		"/home/cibc/lighthouse/week1day5/web-js-palindromes/lib/palindromes.js",
+		"/home/cibc/Documents/go to sleep",
+		"/home/cibc/lighthouse/week1day5/packages/packages.js",
+		"/home/cibc/lighthouse/week1day5/web-js-palindromes/package.json",
+		"/home/cibc/lighthouse/week1day5/packages/.gitignore",
+		"/home/cibc/lighthouse/week1day5/exports/index.js",
+		"/home/cibc/Documents/hard limit",
+		"/home/cibc/lighthouse/week1day3/objects/social-network/social-network.js",
+		"/home/cibc/lighthouse/week1day4/custom-map/custom-map.js",
+		"/home/cibc/lighthouse/week1day3/objects/corporateCalculator.js",
+		"/home/cibc/lighthouse/week1day4/countdown-generator.js",
+		"/home/cibc/lighthouse/week1day4/logging-wrapper/logging-wrapper.js",
+		"/home/cibc/lighthouse/week1day4/closures-scratch.js",
+		"/home/cibc/lighthouse/week1day4/sort/sort.js",
+		"/home/cibc/lighthouse/week1day4/map/map.js",
+		"/home/cibc/Downloads/06_object.js",
+		"/home/cibc/lighthouse/week1day4/waldo/waldo.js"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"document.createElement",
+			"all",
+			"tweets",
+			" .all-tweets",
+			".all-tweets",
+			"60px",
+			"ddd",
+			"%;",
+			"#nav-bar",
+			"index",
+			"session",
+			"userDb",
+			"visits",
+			"console",
+			"{ templateVars }",
+			" { templateVars });",
+			"{ templateVars }",
+			"});\n",
+			" { templateVars });",
+			"{ templateVars }",
+			"});",
+			"{ templateVars }",
+			"templateVars",
+			"/url",
+			"url",
+			"res.redirect(`/error",
+			"req.cookie.",
+			"req.cookie",
+			"req.session.userId",
+			"req.session",
+			"Id",
+			"req.session.userId",
+			"req.session.",
+			"console",
+			"req.cookies.userId",
+			"console",
+			"}",
+			"req.cookies",
+			"'cookie'",
+			"params",
+			"urls",
+			"userDb",
+			"urls",
+			"userName",
+			";\n",
+			"rand",
+			"random",
+			"rand",
+			"dotenv",
+			"data",
+			"body",
+			"urls",
+			"urlS",
+			"urls",
+			"args",
+			"textResource",
+			"urlParsed",
+			"toParse",
+			"parseThrough",
+			"_____",
+			"min",
+			"arguments",
+			"foo",
+			"nextId",
+			"name",
+			",\n",
+			"name",
+			"data",
+			"library",
+			"trackId",
+			"totalTax",
+			"totalSales",
+			"temp",
+			"string",
+			"splitDate",
+			"longest",
+			"console.log(average(groupBy(ancestry, function(entry) {\n  return Math.ceil(entry.died / 100);\n}).filter(function(entry){\n  return entry.groupId == \"17\";\n}).map(function(entry){\n  return entry.died - entry.born;\n})\n));"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 100.0
+	},
+	"pinned_build_system": "",
+	"project": "tweetr.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"app",
+				"public/scripts/app.js"
+			],
+			[
+				"nav",
+				"public/styles/nav.css"
+			],
+			[
+				"main",
+				"public/styles/main.css"
+			],
+			[
+				"tweets",
+				"server/api/tweets.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
