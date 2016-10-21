@@ -1,28 +1,46 @@
 "use strict";
 
-const initialTweets = require("./tweets");
+const MongoClient = require("mongodb").MongoClient;
+const MONGODB_URI = "mongodb://127.0.0.1:27017/tweeter";
 
-const db = { tweets: initialTweets };
-
-const dbMethods = {
-
-  saveTweet: (data) => {
-    db.tweets.push(data);
-    return true;
-  },
-
-  getTweets: () => {
-    return db.tweets.sort(function(a, b) { return a.created_at - b.created_at });
-  }
-
-}
 
 module.exports = {
 
-  connect: (onConnect) => {
+  connect: function (onConnect) {
+    MongoClient.connect(MONGODB_URI, (err, db) => {
+      if (err) {
+        throw err;
+      } else {
+        const dbMethods = {
+          saveTweet: (data) => {
+            let collection = db.collection("tweets");
+            collection.insertOne(data);
+          },
 
-    onConnect(dbMethods);
+          getTweets: (cb) => {
+            let collection = db.collection("tweets");
+            collection.find().toArray((err, tweets) => {
+              cb(tweets);
+            })
+          },
 
+          likeTweet: (tweetId, status) => {
+            let collection = db.collection("tweets");
+            if (status) {
+              collection.update(
+                { _id: tweetId },
+                { $inc: { likes: -1 } }
+              );
+            } else {
+              collection.update(
+                { _id: tweetId },
+                { $inc: { likes: +1 } }
+              );
+            }
+          }
+        }
+        onConnect(dbMethods);
+      }
+    })
   }
-
 }
