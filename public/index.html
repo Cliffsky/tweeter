@@ -23,9 +23,21 @@
     <nav id="nav-bar">
       <img class="logo" src="/images/bird.png">
       <span class="header">Tweeter</span>
+      <div class="login">
+        <i class="fa fa-sign-in"></i>
+        <span>Sign in</span>
+      </div>
       <div class="toggle">
         <i class="fa fa-pencil-square-o"></i>
         <span>Compose</span>
+      </div>
+      <div class="login-bar">
+      <div>Login</div>
+        <form action="/login" method="POST">
+          <input type="text" name="user_id" placeholder="Login" class="text">
+          <input type="text" name="password" placeholder="Password" class="text">
+          <input type="submit" value="Sign in" class="button">
+        </form>
       </div>
     </nav>
 

@@ -107,7 +107,7 @@
   right: 12px;
   font-style:italic;
   color: #8f8f8f;
-  z-index:1;
+  z-index:0;
 }
 
 .container .tweet:hover header span {
@@ -143,8 +143,30 @@
 }
 
 .container .tweet .icons i {
-  padding: 0px 11px 0px 8px;
   height: 5px;
   width: 5px;
   color: #00a087;
+}
+
+.container .tweet .icons .fa-retweet {
+  padding: 0px 15px 0px 4px;
+}
+
+.container .tweet .icons .fa-heart {
+  padding: 0px 15px 0px 7px;
+  height: 5px;
+  width: 5px;
+  color: #00a087;
+}
+
+.container .tweet .icons .fa-flag {
+  padding: 0px 15px 0px 5px;
+}
+
+.container .tweet .like-counter {
+  margin-left:2px;
+  border:0;
+  padding:0;
+  text-align:center;
+  font-size:60%;
 }

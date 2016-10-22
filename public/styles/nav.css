@@ -37,3 +37,57 @@
   background-color: white;
   color: black;
 }
+
+.toggle:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.login {
+  display: inline-block;
+  float: right;
+  color: #00a087;
+  font-size:1.3em;
+  background-color: #e8fdff;
+  border:solid 1px black;
+  padding: 20px 15px 20px 15px;
+  margin:7px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+.login:hover {
+  background-color: white;
+  color: black;
+}
+
+.login-bar  {
+  position:fixed;
+  color: white;
+  top:80px;
+  right:40px;
+  display: none;
+  border: solid 2px #3a3a3a;
+  background-color: #474747;
+  width: 400px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  margin-bottom: 0px;
+  margin-top:5px;
+}
+
+.login-bar div {
+  margin:5px;
+}
+
+.login-bar .text {
+  padding: 5px;
+  margin:0px 0px 5px 5px;
+  width:187px;
+}
+
+.login-bar .button {
+  float:right;
+  margin: 1px 7px 5px 0;
+}
