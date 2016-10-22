@@ -1,6 +1,8 @@
 "use strict";
 
-const MongoClient = require("mongodb").MongoClient;
+const mongoDb = require("mongodb")
+const MongoClient = mongoDb.MongoClient;
+const objectId = mongoDb.ObjectID;
 const MONGODB_URI = "mongodb://127.0.0.1:27017/tweeter";
 
 
@@ -24,19 +26,24 @@ module.exports = {
             })
           },
 
-          likeTweet: (tweetId, status) => {
+          likeTweet: (tweetId, userId) => {
             let collection = db.collection("tweets");
-            if (status) {
-              collection.update(
-                { _id: tweetId },
-                { $inc: { likes: -1 } }
-              );
-            } else {
-              collection.update(
-                { _id: tweetId },
-                { $inc: { likes: +1 } }
-              );
-            }
+            collection.findOne( { _id : objectId(tweetId) }, function(err, tweet) {
+              if (tweet.likes.find(function (e) { return e === userId; })) {
+                collection.updateOne( { _id: objectId(tweetId) }, { $pull: { likes: userId }}, function(err, added) {
+                });
+              } else {
+                collection.updateOne( { _id: objectId(tweetId) }, { $push: { likes: userId }}, function(err, added) {
+                });
+              }
+              console.log(tweet.likes);
+              // $('*[data-customerID="22"]').children(".like-button").text(tweet.likes.length);
+            });
+          },
+
+          getTweet: (tweetId, cb) => {
+            let collection = db.collection("tweets");
+            collection.findOne( { _id: objectId(tweetId) }, cb);
           }
         }
         onConnect(dbMethods);

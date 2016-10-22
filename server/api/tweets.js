@@ -24,15 +24,23 @@ module.exports = function(db) {
       content: {
         text: req.body.text
       },
-      likes: 0,
+      likes: [],
       created_at: Date.now()
     };
     db.saveTweet(tweet);
     return res.send();
   });
 
-  tweets.put("/", function(req, res) {
-    db.likeTweet(req.body.id, req.body.liked);
+  tweets.put("/:id", function(req, res) {
+    db.likeTweet(req.params.id, req.connection.remoteAddress);
+    return res.send();
+  })
+
+  tweets.get("/:id", function(req, res) {
+    db.getTweet(req.params.id, function (err, tweet) {
+      console.log(JSON.stringify(tweet.likes.length));
+      res.send(JSON.stringify(tweet.likes.length));
+    })
   })
 
   return tweets;
