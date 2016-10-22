@@ -2,9 +2,7 @@ $(function() {
 
   function renderTweets(tweetData) {
     $('article.tweet').remove();
-    // tweetData.reverse().forEach((tweet) => {
-    //   $('.container').after(".new-tweet").append(createTweetElement(tweet));
-    // })
+
 
     var tweets = tweetData.reverse().map(createTweetElement);
     $('.container').append(tweets);
@@ -152,10 +150,5 @@ $(function() {
       }
     })
   })
-
-  if( $('.like-counter').is(':empty') ) {
-    $('.like-counter').hide();
-  }
-
 
 });
